@@ -6,3 +6,5 @@ DMA looks like it is great at freeing-up the software to do other tasks or to co
 I wish that the SAMD21 documentation had been more "up front" in describing the time it takes for a single DMA channel to complete. I was expecting a performance gain but measured none.
 
 This project contains a good example of multi-channel DMA on the SAMD21 without using the HAL library (just individual register writes).
+
+PIN PA7 is the input which measures a single pulse's high time and period.
